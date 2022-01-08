@@ -1,32 +1,24 @@
 // allows to create reducers easily
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialStateValue = {
-  name: "",
-  age: 0,
-  email: "",
-};
+const initialStateValue = "";
 
 // userSlice is a reducer
-export const userSlice = createSlice({
-  name: "user",
+export const themeSlice = createSlice({
+  name: "theme",
   initialState: {
     value: initialStateValue,
   },
   reducers: {
     // the state holds the current state of initialState
     // the action is what you want to do to the state
-    login: (state, action) => {
+    changeColour: (state, action) => {
       state.value = action.payload;
-    },
-
-    logout: (state) => {
-      state.value = initialStateValue;
     },
   },
 });
 
 // we export the login and logout reducer
-export const { logout, login } = userSlice.actions;
+export const { changeColour } = themeSlice.actions;
 
-export default userSlice.reducer;
+export default themeSlice.reducer;
