@@ -1,11 +1,28 @@
-import "./App.css"
+import "./App.css";
+// react-router
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// components
+import Header from "./components/Header";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-    <h1>Let's build Slack</h1>
+      <Router>
+        <>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header />
+                </>
+              }
+            />
+          </Routes>
+        </>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
