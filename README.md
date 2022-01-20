@@ -181,7 +181,7 @@ It's on Github [here](https://github.com/turbofuture1/next-typescript).
 ----------------------------------------------------------------------------------
 
 Tuesday, 18 January 2022
-
+-
 Created a simple website using the Next.js + Typescript I created earlier
 
 The source code for this project is in a separate repo [here]("https://github.com/turbofuture1/mui")
