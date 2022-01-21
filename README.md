@@ -170,4 +170,20 @@ Built a Quiz app using React and Typescript.
 
 This project is available [here](https://fireblogsyt-a4d73.web.app/)
 
+----------------------------------------------------------------------------------
+
+Wednesday, 12 January 2022
+-
+Created a Next.js + Typescript template so that I don't have to install so many dependencies when working with Next.js.
+
+It's on Github [here](https://github.com/turbofuture1/next-typescript).
+
+----------------------------------------------------------------------------------
+
+Tuesday, 18 January 2022
+-
+Created a simple website using the Next.js + Typescript I created earlier
+
+The source code for this project is in a separate repo [here]("https://github.com/turbofuture1/mui")
+
 
