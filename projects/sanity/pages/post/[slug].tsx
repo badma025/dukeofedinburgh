@@ -11,7 +11,11 @@ const Post: NextPage<Props> = ({ post }): JSX.Element => {
   return (
     <main>
       <Header />
-      <img className="w-full h-40 object-contain" src={urlFor(post.mainImage).url()!} alt="" />
+      <img
+        className="w-full h-40 object-contain"
+        src={urlFor(post.mainImage).url()!}
+        alt=""
+      />
     </main>
   );
 };
