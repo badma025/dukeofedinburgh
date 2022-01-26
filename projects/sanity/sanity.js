@@ -1,4 +1,3 @@
-import { ChildProcess } from "child_process";
 import {
   createImageUrlBuilder,
   createCurrentUserHook,
@@ -26,4 +25,3 @@ export const config = {
 export const sanityClient = createClient(config);
 export const urlFor = (source) => createImageUrlBuilder(config).image(source);
 
-console.log(module);
