@@ -8,8 +8,8 @@ export default {
       type: "string",
     },
     {
-      name: "Approved",
-      type: "Approved",
+      title: "Approved",
+      name: "approved",
       type: "boolean",
       description: "Comments won't show on the site without approval",
     },
