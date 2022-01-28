@@ -186,4 +186,14 @@ Created a simple website using the Next.js + Typescript I created earlier
 
 The source code for this project is in a separate repo [here]("https://github.com/turbofuture1/mui")
 
+-------------------------------------------
+
+Monday, 24 January 2022
+-
+Started to build a blog using Next.js and Sanity.io which uses Typescript, ISR, page routing and Tailwind CSS.
+
+The video is available [here](https://www.youtube.com/watch?v=I2dcpatq54o&t=10232s)
+
+
+
 
