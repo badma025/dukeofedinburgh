@@ -186,4 +186,30 @@ Created a simple website using the Next.js + Typescript I created earlier
 
 The source code for this project is in a separate repo [here]("https://github.com/turbofuture1/mui")
 
+-------------------------------------------
+
+Monday, 24 January 2022
+-
+Started to build a blog using Next.js and Sanity.io which uses Typescript, ISR, page routing and Tailwind CSS.
+
+The video is available [here](https://www.youtube.com/watch?v=I2dcpatq54o&t=10232s)
+
+--------------------------------------
+
+Friday, 28 January 2022
+-
+Finished creating a blog using Next.js and Sanity.io which uses Typescript, ISR, page routing and Tailwind CSS.
+
+### Commands I used (node.js)
+- npx create-next-app --example with-tailwindcss sanity
+- npm install -g @sanity/cli       
+- sanity init --coupon sonny2022  
+- npm i next-sanity    
+- npm install react-portable-text  
+- npm i react-hook-form  
+- npm i @sanity/client  
+
+This project was delpoyed with Vercel and is available [here](https://sanity-theta.vercel.app/)
+
+
 
