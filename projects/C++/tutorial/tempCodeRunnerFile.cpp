@@ -1,0 +1,1 @@
+string email = first_name.append("@gmail.com");
