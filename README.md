@@ -211,5 +211,19 @@ Finished creating a blog using Next.js and Sanity.io which uses Typescript, ISR,
 
 This project was delpoyed with Vercel and is available [here](https://sanity-theta.vercel.app/)
 
+---------------------------------------------
+
+Friday, 4 February 2022
+-
+Learning C++ as I am also really interested in competitive programming with websites like [Project Euler](https://projecteuler.net/)
+The files can be found in the projects/C++ folder and I am using [this](https://www.youtube.com/watch?v=uhFpPlMsLzY) video to learn C++.
+
+---------------------------------------------------------
+
+Saturday, 6 February 2022
+-
+Learning Figma for web design as a website must be functional as well as aesthetically pleasing.
+I am using [this](https://www.youtube.com/watch?v=jwCmIBJ8Jtc&t=14532s) tutorial here and the project can be found [here](https://www.figma.com/file/xrGhTJjuppe67YH3EU3R4X/tutorial?node-id=0%3A1)
+
 
 
