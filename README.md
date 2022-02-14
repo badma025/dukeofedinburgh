@@ -226,4 +226,16 @@ Learning Figma for web design as a website must be functional as well as aesthet
 I am using [this](https://www.youtube.com/watch?v=jwCmIBJ8Jtc&t=14532s) tutorial here and the project can be found [here](https://www.figma.com/file/xrGhTJjuppe67YH3EU3R4X/tutorial?node-id=0%3A1)
 
 
+-----------------------------------------------------------------------
+
+Friday, 12 February 2022
+-
+Finished learning Figma and designed my [own](https://www.figma.com/proto/6iTN6DVlZiJABPU4E7Ojg1/websiteProject?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A2) webpage. I plan to build it out after learning CSS in detail.
+
+I have also finished learning C++ (you can find all the documents in the projects/C++ folder).
+
+I now plan to increase my knowledge of concepts like algorithms and data structures by using websites like [CodeForces](https://codeforces.com/profile/turbofuture1). 
+You can find all the solved problems in the /projects/C++/competitive-programming/CodeForces folder which has some .cpp files (source code) and .exe files (the executable file which you can use to run the program on your computer).
+
+
 
