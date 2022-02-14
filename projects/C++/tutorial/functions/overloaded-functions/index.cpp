@@ -38,8 +38,10 @@ void bakePizza(string bread)
 
 int main()
 {
-    string bread;
-    string sauce;
-    string cheese;
-    string topping;
+    string bread = "thicc crust";
+    string sauce = "sweet chilli";
+    string cheese = "mozzarella";
+    string topping = "olives";
+
+    bakePizza(bread, sauce, cheese);
 }
