@@ -253,7 +253,7 @@ This website is available [here](https://discord-navbar.vercel.app/).
 
 ------------------------------------------------------------------------------------------------
 
-Wednesday, 16 Febtuary 2022
+Wednesday, 16 Febuary 2022
 -
 Buily a bookmark manager using Tailwind and Next.js
 
