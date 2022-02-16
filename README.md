@@ -238,6 +238,7 @@ I now plan to increase my knowledge of concepts like algorithms and data structu
 You can find all the solved problems in the /projects/C++/competitive-programming/CodeForces folder which has some .cpp files (source code) and .exe files (the executable file which you can use to run the program on your computer).
 
 ----------------------------------------------------------------------------------------
+
 Tuesday, 15 February 2022
 -
 Learning Tailwind for creating appealing websites instead of vanilla CSS; I built a discord navbar.
@@ -246,5 +247,19 @@ Commands I used (node.js)
 - npx create-next-app discord-navbar
 - npm install react-icons --save
 
-This website is available []() here.
+The source code can be found in the /projects/discord-navbar folder.
+
+This website is available [https://discord-navbar.vercel.app/](here).
+
+------------------------------------------------------------------------------------------------
+
+Wednesday, 16 Febtuary 2022
+-
+Buily a bookmark manager using Tailwind and Next.js
+
+The source code can be found in the /projects/discord-navbar folder.
+
+This website is available (https://landing-page-extra.vercel.app/)[here].
+
+--------------------------------------------------
 
