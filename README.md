@@ -249,7 +249,7 @@ Commands I used (node.js)
 
 The source code can be found in the /projects/discord-navbar folder.
 
-This website is available [https://discord-navbar.vercel.app/](here).
+This website is available (here)[https://discord-navbar.vercel.app/].
 
 ------------------------------------------------------------------------------------------------
 
@@ -259,7 +259,7 @@ Buily a bookmark manager using Tailwind and Next.js
 
 The source code can be found in the /projects/discord-navbar folder.
 
-This website is available (https://landing-page-extra.vercel.app/)[here].
+This website is available (here)[https://landing-page-extra.vercel.app/][.
 
 --------------------------------------------------
 
