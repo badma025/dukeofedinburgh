@@ -1,8 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Features from "../components/Features";
+import Download from "../components/Download";
+import FAQ from "../components/FAQ";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,7 +18,12 @@ export default function Home() {
       </Head>
 
       <Header />
-      <Hero/>
+      <Hero />
+      <Features />
+      <Download />
+      <FAQ />
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

@@ -1,35 +1,29 @@
-#include <bits/stdc++.h>
-#include <iostream>
-#include <stdlib.h>
-#include <cmath>
-#include <string>
-
+#include<iostream>
+#include<algorithm>
+#include<cstring>
 using namespace std;
 
 int main()
 {
-    string username;
-    cin >> username;
-    
-    int count = 0;
-    sort(username.begin(), username.end());
-
-    for (int i = 0; i < username.length(); i++)
+	char s[101];
+ 
+	cin >> s;
+	 int l  = strlen(s);
+	sort(s,s+l);
+	 int count = 0;
+    for(int i=0; i<l; i++)
     {
-        if (username[i] != username[i+1])
+        if(s[i] != s[i+1])
         {
-           count++;
+            count++;
         }
-        
     }
-    
-    if (count % 2 == 0)
+    if(count%2==0)
     {
-        cout << "CHAT WITH HER!";
+        cout<<"CHAT WITH HER!\n";
     }
     else
     {
-        cout << "IGNORE HIM!";
+        cout<<"IGNORE HIM!\n";
     }
-    
 }

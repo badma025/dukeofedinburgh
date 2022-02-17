@@ -1,4 +1,7 @@
 import Image from "next/image";
+import PurpleButton from "./buttons/PurpleButton";
+import WhiteButton from "./buttons/WhiteButton";
+import RightRoundedRectangle from "./rounded-rectangle/Right";
 
 function Hero() {
   return (
@@ -15,24 +18,21 @@ function Hero() {
             free.
           </p>
           <div className="flex justify-center flex-wrap gap-6">
-            <button
-              type="button"
-              className="btn btn-purple hover:bg-bookmark-white hover:text-black">
-              Get It on Chrome
-            </button>
-            <button
-              type="button"
-              className="btn btn-white hover:bg-bookmark-purple hover:text-white">
-              Get It on Firefox
-            </button>
+            <PurpleButton text="Get It on Chrome" />
+            <WhiteButton text=" Get It on Firefox"/>
           </div>
         </section>
         <div className="flex justify-center flex-1 mb-10 md-mb-16 lg:mb-0 z-10">
-          <Image className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="/hero-bg.png" height={386} width={579} />
+          <Image
+            className="hero-img"
+            src="/hero-bg.png"
+            height={386}
+            width={579}
+          />
         </div>
       </div>
       {/* rounded rectangle */}
-      <div className="hidden md:block overflow-hidden bg-bookmark-purple rounded-l-full absolute h-80 w-2/4"></div>
+      <RightRoundedRectangle />
     </section>
   );
 }

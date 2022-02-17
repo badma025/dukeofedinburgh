@@ -2,16 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
-@layer components{
+@layer components {
   .btn {
-    @apply shadow-md py-3 px-6 rounded-md transition duration-300
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300;
   }
   .btn-purple {
-    @apply bg-bookmark-purple text-white
+    @apply bg-bookmark-purple text-white btn hover:bg-bookmark-white hover:text-black ;
   }
   .btn-white {
-    @apply bg-bookmark-white 
+    @apply bg-bookmark-white btn hover:bg-bookmark-purple hover:text-white;
+  }
+  .btn-red {
+    @apply bg-bookmark-red btn hover:bg-bookmark-white hover:text-black;
+  }
+  .hero-img {
+    @apply w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full;
   }
 }
