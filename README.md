@@ -263,3 +263,11 @@ This website is available [here](https://landing-page-extra.vercel.app/).
 
 --------------------------------------------------
 
+Saturday, 19 Febuary 2022
+-
+Built a dummy webage using Tailwind and Next.js
+
+The source code can be found in the /projects/shapo folder.
+
+This website is available [here](https://shapo.vercel.app/).
+
