@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+@layer components {
+  .social_icons {
+    @apply w-auto h-16 text-gray-400 transition cursor-pointer fill-current hover:text-white
+  }
+}

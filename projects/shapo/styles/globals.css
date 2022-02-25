@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  background-color: "#111827";
+}
+
+@layer components {
+  .header_bounce {
+    @apply hover:text-white hover:scale-110 transform duration-300 cursor-pointer ease-in-out;
+  }
+}
