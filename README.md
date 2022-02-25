@@ -247,7 +247,7 @@ Commands I used (node.js)
 - npx create-next-app discord-navbar
 - npm install react-icons --save
 
-The source code can be found in the /projects/discord-navbar folder.
+The source code can be found in the /projects/tailwind/discord-navbar folder.
 
 This website is available [here](https://discord-navbar.vercel.app/).
 
@@ -257,7 +257,7 @@ Wednesday, 16 Febuary 2022
 -
 Buily a bookmark manager using Tailwind and Next.js
 
-The source code can be found in the /projects/discord-navbar folder.
+The source code can be found in the /projects/tailwind/landing-page folder.
 
 This website is available [here](https://landing-page-extra.vercel.app/).
 
@@ -267,7 +267,16 @@ Saturday, 19 Febuary 2022
 -
 Built a dummy webage using Tailwind and Next.js
 
-The source code can be found in the /projects/shapo folder.
+The source code can be found in the /projects/tailwind/shapo folder.
 
 This website is available [here](https://shapo.vercel.app/).
 
+---------------------------------------------------------------------------------
+
+Thursday, 24 Febuary 2022
+-
+Built a traffic page using Tailwind and Next.js 
+
+The source code can be found in the projecs/tailwind/traffic-page folder.
+
+This website is available [here](https://traffic-page.vercel.app/).
