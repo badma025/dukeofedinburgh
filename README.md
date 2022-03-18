@@ -296,3 +296,9 @@ Tuesday, 8 March 2022
 Finished building a Hulu clone using Tailwind and Next.js
 
 This website is available [here](https://hulu-henna-theta.vercel.app/)
+
+-------------------------------------------------------------------------------------
+
+Tuesday, 15 March 2022 
+-
+Created a simple bookstore app using Prisma and PlanetScale which allows you to type in details about a book and have the information rendered.
