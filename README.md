@@ -277,6 +277,22 @@ Thursday, 24 Febuary 2022
 -
 Built a traffic page using Tailwind and Next.js 
 
-The source code can be found in the projecs/tailwind/traffic-page folder.
+The source code can be found in the projects/tailwind/traffic-page folder.
 
 This website is available [here](https://traffic-page.vercel.app/).
+
+------------------------------------------------------------------------------------
+
+Thursday, 3 March 2022
+-
+Started to a [Hulu](https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F) clone using Tailwind and Next.js
+
+The source code so far can be found in the projects/hulu folder.
+
+------------------------------------------------------------------------------------
+
+Tuesday, 8 March 2022
+-
+Finished building a Hulu clone using Tailwind and Next.js
+
+This website is available [here](https://hulu-henna-theta.vercel.app/)
