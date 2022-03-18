@@ -29,10 +29,7 @@ export const getServerSideProps = async (context: NextPageContext) => {
   // just gets the fetchActionMovies part
   const genre = context.query.genre
 
-  const request = await fetch(
-    `https://api.themoviedb.org/3${requests[genre]?.url}` ||
-      requests.fetchTrending
-  ).then((res) => res.json())
+  const request = await fetch( `https://api.themoviedb.org/3${requests[genre]?.url || requests.fetchTrending.url}`).then((res) => res.json())
 
   return {
     props: {

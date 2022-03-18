@@ -4,8 +4,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
-* {
-  background-color: "#111827";
+@layer base {
+  body {
+    @apply bg-gray-900;
+  }
 }
 
 @layer components {

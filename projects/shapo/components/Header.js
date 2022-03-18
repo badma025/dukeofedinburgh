@@ -4,8 +4,8 @@ import { MenuIcon, MoonIcon, ShoppingCartIcon } from "@heroicons/react/outline";
 
 function Header() {
   return (
-    <header className="container py-4 mb-10">
-      <nav className="mt-4 sm:mt-12 flex items-center">
+    <header className="">
+      <nav className="container py-4 mb-10 mt-4 sm:mt-12 flex items-center">
         <div className="flex flex-1 items-center sm:gap-12 md:gap-24">
           <Image src="/Shapo..png " height={26} width={89} alt="" />
 

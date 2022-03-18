@@ -6,8 +6,8 @@ import Shape3 from "./shapes/Shape3";
 
 function Improvements() {
   return (
-    <section className="bg-gray-900 pb-20">
-      <div className="container max-w-3xl">
+    <section className=" ">
+      <div className="pb-20 container max-w-3xl">
         {/* text */}
         <div
           className="bg-gray-900 
@@ -21,7 +21,7 @@ function Improvements() {
         </div>
 
         {/* shapes */}
-        <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 2xl:gap-60 sm:place-items-center ">
+        <div className="grid grid-cols-1 md:grid-cols-2  2xl:gap-60 sm:justify-center ">
           <Shape1 />
           <Shape2 />
           <Shape3 />
