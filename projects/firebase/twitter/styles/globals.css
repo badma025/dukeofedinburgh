@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-black;
-  }
-}
+C
 
 @layer components {
   .hoverAnimation {
