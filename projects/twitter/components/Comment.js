@@ -15,8 +15,8 @@ function Comment({ comment }) {
         alt=""
         className="h-11 w-11 rounded-full mr-4"
       />
-      <div className="flex flex-col space-y-2 w-full">
-        <div className="flex justify-between">
+      <div className="flex flex-col space-y-2 w-full ">
+        <div className="flex justify-between ">
           <div className="text-[#6e767d]">
             <div className="inline-block group">
               <h4 className="font-bold text-[#d9d9d9] text-[15px] sm:text-base inline-block group-hover:underline">

@@ -9,8 +9,7 @@ import {
   collection,
   serverTimestamp,
 } from "@firebase/firestore";
-import { db } from "../firebase";
-import { useSession } from "next-auth/react";
+import { auth, db } from "../firebase";
 import {
   CalendarIcon,
   ChartBarIcon,
@@ -20,9 +19,10 @@ import {
 } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import Moment from "react-moment";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 function Modal() {
-  const { data: session } = useSession();
+  const [user] = useAuthState(auth)
   const [isOpen, setIsOpen] = useRecoilState(modalState);
   const [postId, setPostId] = useRecoilState(postIdState);
   const [post, setPost] = useState();
@@ -42,9 +42,9 @@ function Modal() {
 
     await addDoc(collection(db, "posts", postId, "comments"), {
       comment: comment,
-      username: session.user.name,
-      tag: session.user.tag,
-      userImg: session.user.image,
+      username: user.displayName,
+      tag: user.email,
+      userImg: user.photoURL,
       timestamp: serverTimestamp(),
     });
 
@@ -118,7 +118,7 @@ function Modal() {
 
                   <div className="mt-7 flex space-x-3 w-full">
                     <img
-                      src={session.user.image}
+                      src={user.photoURL}
                       alt=""
                       className="h-11 w-11 rounded-full"
                     />

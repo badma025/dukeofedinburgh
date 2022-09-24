@@ -11,11 +11,12 @@ import {
   DotsHorizontalIcon,
 } from "@heroicons/react/outline";
 import SidebarLink from "./SidebarLink";
-import { signOut } from "next-auth/react";
-import { useSession } from "next-auth/react";
+import { signOut } from "firebase/auth";
+import { auth } from "../firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 function Sidebar() {
-  const { data: session } = useSession();
+  const [user] = useAuthState(auth)
 
   return (
     <div className="hidden sm:flex flex-col items-center xl:items-start xl:w-[340px] p-2 fixed h-full">
@@ -37,16 +38,16 @@ function Sidebar() {
       </button>
       <div
         className="text-[#d9d9d9] flex items-center justify-center mt-auto hoverAnimation xl:ml-auto xl:-mr-5"
-        onClick={signOut}
+        onClick={() => signOut(auth)}
       >
         <img
-          src={session.user.image}
+          src={user?.photoURL}
           alt=""
           className="h-10 w-10 rounded-full xl:mr-2.5"
         />
         <div className="hidden xl:inline leading-5">
-          <h4 className="font-bold">{session.user.name}</h4>
-          <p className="text-[#6e767d]">@{session.user.tag}</p>
+          <h4 className="font-bold">{user?.displayName}</h4>
+          <p className="text-[#6e767d]">@{user?.email}</p>
         </div>
         <DotsHorizontalIcon className="h-5 hidden xl:inline ml-10" />
       </div>

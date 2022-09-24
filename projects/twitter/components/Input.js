@@ -5,8 +5,9 @@ import {
   PhotographIcon,
   XIcon,
 } from "@heroicons/react/outline";
+import {useAuthState} from "react-firebase-hooks/auth"
 import { useRef, useState } from "react";
-import { db, storage } from "../firebase";
+import { auth, db, storage } from "../firebase";
 import {
   addDoc,
   collection,
@@ -15,14 +16,14 @@ import {
   updateDoc,
 } from "@firebase/firestore";
 import { getDownloadURL, ref, uploadString } from "@firebase/storage";
-import { signOut, useSession } from "next-auth/react";
 import dynamic from "next/dynamic";
 // const Picker = dynamic(() => import("emoji-picker-react"), { ssr: false });
 import { Picker } from "emoji-mart";
 import "emoji-mart/css/emoji-mart.css";
+import { signOut } from "firebase/auth";
 
 function Input() {
-  const { data: session } = useSession();
+  const [user] = useAuthState(auth)
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [selectedFile, setSelectedFile] = useState(null);
@@ -34,10 +35,10 @@ function Input() {
     setLoading(true);
 
     const docRef = await addDoc(collection(db, "posts"), {
-      id: session.user.uid,
-      username: session.user.name,
-      userImg: session.user.image,
-      tag: session.user.tag,
+      id: user.uid,
+      username: user.displayName,
+      userImg: user.photoURL,
+      tag: user.email,
       text: input,
       timestamp: serverTimestamp(),
     });
@@ -85,10 +86,10 @@ function Input() {
       }`}
     >
       <img
-        src={session.user.image}
+        src={user?.photoURL}
         alt=""
         className="h-11 w-11 rounded-full cursor-pointer"
-        onClick={signOut}
+        onClick={() => signOut(auth)}
       />
       <div className="divide-y divide-gray-700 w-full">
         <div className={`${selectedFile && "pb-7"} ${input && "space-y-2.5"}`}>
